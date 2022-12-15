@@ -1,0 +1,411 @@
+@font-face {
+    font-family: 'roboto_slabregular';
+    src: url('RobotoSlab-Regular-webfont.eot');
+    src: url('RobotoSlab-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('RobotoSlab-Regular-webfont.woff2') format('woff2'),
+         url('RobotoSlab-Regular-webfont.woff') format('woff'),
+         url('RobotoSlab-Regular-webfont.ttf') format('truetype'),
+         url('RobotoSlab-Regular-webfont.svg#roboto_slabregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.recherche{
+    margin-left: 360px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    border: 50px;
+    padding-left: 10px;
+    width: 400px;
+    height: 35px;
+    text-align: center;
+    background-image: url(./Images/loupe.png);
+    background-repeat: no-repeat;
+    background-position: 97%;
+}
+
+.Bande_noir{
+    display: flex;  
+    align-items: center;
+    height: 60px;
+    background-color:black;
+    border-bottom: 5px solid #F0CD22;
+}
+
+.lien{
+    color: white;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.taille{
+    font-size: 10px;
+    margin-left: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header ul a:hover{
+    border-bottom: 1px solid  #F0CD22;
+    color: #F0CD22;
+}
+
+li:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 0.5s;
+}
+
+.Bande_noir span{
+    color:#F0CD22;
+}
+
+h1{
+    color: white;
+    font-size: 1.5em;
+    margin-left: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 7px;
+}
+
+ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 80px;
+    margin-top:12px;
+}
+
+li{
+    margin-left: 35px;
+    font-size: 15px;
+}
+img{
+    width: 100%;
+    height: 656px;
+}
+
+.titre{
+    text-align: center;
+    font-size: 1.8em;
+    margin-top: 80px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+
+}
+
+.Luxe{
+    text-align: center;
+    font-size: 1.8em;
+    margin-top: 40px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.img_2{
+    display: flex;
+    justify-content: flex-end;
+   padding-bottom: 150px;
+
+    
+    
+    
+}
+
+.img_bug{
+    position: absolute;
+    top:74.5%;
+    width: 700px;
+    height: 1100px;
+}
+
+.Luxe2{
+    text-align: center;
+    font-size: 2.2em;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-right: 650px;
+    margin-top: 10px;
+}
+
+.Luxe3{
+    text-align: center;
+    font-size: 1.2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 120px;
+    /* margin-top: -100px; */
+    width: 600px;
+}
+
+.img_buga{
+    position: absolute;
+    width: 820px;
+    height: 550px;
+    top:194%;
+    
+    
+}
+
+.para_bug{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 120px;
+    
+    
+}
+
+.text{
+    font-size: 2.2em;
+    font-family:Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 197%;
+    margin-right: 35px;
+    
+}
+
+.text2{
+    justify-content: flex-end;
+    width: 400px;
+    font-size: 1.2em;
+    text-align: left;
+    margin-top: 20px;
+    margin-right: -400px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.text3{
+    width: 400px;
+    font-size: 1.2em;
+    text-align: left;
+    margin-top: 310px;
+    margin-right: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.img_buga2{
+    height: 300px;
+    margin-top: 100px;
+}
+
+.text4{
+    margin-top: 150px;
+    font-size: 1.5em;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.text5{
+    font-size: 1.4em;
+    text-align: center;
+    margin-top: 120px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.text6{
+    text-align: center;
+    margin-top: 140px;
+    font-size: 1.7em;
+    font-family:Arial, Helvetica, sans-serif;
+   
+}
+
+.caroussel{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    border: -8px;
+}
+
+.img_carou{
+    width: 350px;
+    height: 500px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.test{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    margin-top: 70px;
+    left:7%;
+    border-radius: 2px;
+}
+
+.test1{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    margin-top: 70px;
+    border-radius: 2px;
+    left:39.4%
+}
+
+.test2{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    margin-top: 70px;
+    border-radius: 2px;
+    left:71.5%
+}
+.footer{
+    width: 100%;
+    height: 72px;
+    background-color: black;
+    display: flex;
+    padding-top: 0px;
+    position: relative;
+    margin-top: 60px;
+}
+
+.p5{
+    color:white;
+    margin-left: 450px;
+    position: absolute; 
+    font-size: 6px;
+    margin-top: 58px;
+}
+
+.reseaux{
+    margin-left: 620px;
+   
+    position: relative;
+}
+
+.what{
+    margin-left: 205px;
+    height: 40px;
+    width: 35px;
+    position: absolute;
+    margin-top: 8px;
+}
+
+.insta{
+    height: 45px;
+    width: 45px;
+    margin-left: 130px;
+    position: absolute;
+    margin-top: 4px;
+    
+}
+
+.FB{
+    
+    margin-right: 7px;
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    margin-top: 8px;
+}
+
+.twi{
+    height: 30px;
+    width: 33px;
+    margin-left: 70px;
+    margin-top: 12px;
+    position: absolute;
+}
+
+.footer .taille:hover{
+    border-bottom: 1px solid  #F0CD22;
+    color: #f0cd22;
+}
+
+.cgv{
+    
+    position: relative;
+    margin-right: 200px;
+    
+}
+
+.footer span{
+    color:#f0cd22
+}
+
+.h1footer{
+    position: absolute;
+    color: white;
+    top: 4px;
+    left: 200px;
+    font-size: 1.7em;
+}
+
+.h1footer span{
+    color:#F0CD22;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lien1:hover{
+    transform: scale(1.2);
+    transition: ease-in-out 1s;
+}
+
+.lien{
+    color: white;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+
+.taille{
+    font-size: 9px;
+    margin-left: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+#carouselExampleIndicators{
+    width: 300px;
+    margin: auto;
+    margin-left: 0%;
+    margin-top: 5%;
+    position: absolute;
+}
+
+
+
+.carousel-inner{
+    width: 300px;
+    height: 200px;
+}
+
+.carou{
+    width: 100%;
+    height: 190px;
+}
+
+#carouselExampleIndicators1{
+    width: 300px;
+    margin: auto;
+    margin-left: 64.3%;
+    margin-top: 5%;
+    position: absolute;
+}
+
+#carouselExampleIndicators2{
+    width: 300px;
+    margin: auto;
+    margin-right: 64.7%;
+    margin-top: 5%;
+    position: absolute;
+}
+
+.widht{
+    width: 900px;
+    height: 250px;
+}
+
+.Liste a{
+    font-family:Arial, Helvetica, sans-serif;
+}
+

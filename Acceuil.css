@@ -1,0 +1,382 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.recherche{
+    margin-left: 360px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    border: 50px;
+    padding-left: 10px;
+    width: 400px;
+    height: 35px;
+    text-align: center;
+    background-image: url(./Images/loupe.png);
+    background-repeat: no-repeat;
+    background-position: 97%;
+}
+
+
+.Bande_noir{
+    display: flex;  
+    align-items: center;
+    height: 60px;
+    background-color:black;
+    
+}
+
+.lien{
+    color: white;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.taille{
+    font-size: 10px;
+    margin-left: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header ul a:hover{
+    border-bottom: 1px solid  #F0CD22;
+    color: #F0CD22;
+}
+
+li:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 0.5s;
+}
+
+.Bande_noir span{
+    color:#F0CD22;
+}
+
+h1{
+    color: white;
+    font-size: 1.5em;
+    margin-left: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 80px;
+}
+
+li{
+    margin-left: 35px;
+    font-size: 15px;
+}
+
+video{
+    position: relative;
+    width:100%;
+    border-top: 4px solid #F0CD22;
+}
+
+.centre{
+    height: 1500px;
+    width: 100%;
+    background-color: white;
+}
+
+
+.ligne1{
+    width: 80px;
+    height:80px;
+    position: absolute;
+    z-index: 50;
+    margin-top: 24px;
+    margin-left: 40px;
+}
+
+.ligne2{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    z-index: 50;
+    margin-top: 27px;
+    margin-left: 180px;
+}
+
+.RR{
+    margin-left: 18px;
+    margin-top: 0px;
+}
+
+.bentley{
+    margin-left: 6px;
+    margin-top: 1px;
+}
+
+.ferrari{
+    margin-top: 15px;
+    margin-left: 14px;
+}
+
+.lambo{
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.back{
+    background-color: white;
+    height: 800px;
+    background: linear-gradient(0.25turn,grey,white);
+    margin-top: -40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Formulaire1{
+    width: 500px;
+    height: 70px;
+    border-radius: 14px;
+    margin-top: 50px;
+    margin-left: 170px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border: 50px;
+    text-align: center;
+}
+
+.Para1{
+ margin-left: 300px;
+ font-size: 25px;
+ padding-top: 120px;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.Formulaire{
+    width: 500px;
+    height: 600px;
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#For2{
+    margin-left: 170px;
+    width: 500px;
+    margin-top: 40px;
+    border-radius: 14px;
+    height: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border: 50px;
+    text-align: center;
+}
+
+#Mini{
+    margin-left: 170px;
+    width: 200px;
+    margin-top: 40px;
+    border-radius: 14px;
+    height: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border: 50px;
+}
+
+#Maxi{
+    margin-left: 470px;
+    width: 200px;
+    margin-top: -70px;
+    border-radius: 14px;
+    height: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border: 50px;
+}
+
+.Valider{
+    margin-left: 170px;
+    width: 500px;
+    margin-top: 40px;
+    border-radius: 14px;
+    height: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    background-color: #2B2A2A;
+    border: 50px;
+    background-image: linear-gradient(0,#F0CD22,#F0CD22);
+    background-size: 0;
+    transition: .8s;
+    background-repeat: no-repeat;
+    color:white;
+}
+
+.Valider:hover{
+    background-size: 100%;
+    color:black;
+}
+
+.Text{
+   margin-left: 800px;
+   position: absolute;
+   padding-top: 110px;
+   font-size: 23px;
+   text-align: center;
+   margin-bottom: 100px;
+   line-height: 42px;
+   align-items: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.premier{
+    padding-top: 50px;
+}
+
+.footer{
+    width: 100%;
+    height: 320px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    position: relative;
+}
+
+.media{
+    height: 40px;
+    width: 35px;
+    margin-left: 55px;
+    margin-top: 90px;
+}
+
+.media2{
+    height: 45px;
+    width: 40px;
+    margin-left: 80px;
+    padding-top: 20px;
+}
+
+.media3{
+    height: 55px;
+    width: 50px;
+    margin-left: 77px;
+    padding-top: 20px; 
+}
+
+.p{
+    color:white;
+    margin-left: 140px;
+    position: absolute;     
+    margin-top: 30px;
+}
+
+.p2{
+    color:white;
+    margin-left: 140px;
+    position: absolute; 
+    margin-top: 97px;
+}
+
+.p3{
+    color:white;
+    margin-left: 140px;
+    position: absolute; 
+    margin-top: 155px;   
+}
+
+.p4{
+    color:white;
+    margin-left: 140px;
+    position: absolute; 
+    margin-top: 220px;  
+}
+
+.p5{
+    color:white;
+    margin-left: 450px;
+    position: absolute; 
+    margin-top: 300px;
+    font-size: 15px;
+}
+
+.reseaux{
+    margin-left: 620px;
+    margin-top: 5px;
+    position: relative;
+}
+
+.what{
+    margin-left: 20px;
+    margin-bottom: 17px;
+    
+}
+
+.insta{
+    height: 45px;
+    width: 45px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.FB{
+    margin-bottom: 20px;
+    margin-right: 7px;
+}
+
+.twi{
+    height: 33px;
+    width: 37px;
+    margin-left: 20px;
+    margin-bottom: 22px;
+}
+
+.footer a:hover{
+    border-bottom: 1px solid  #F0CD22;
+    color: #f0cd22;
+}
+
+.cgv{
+    margin-bottom: 35px;
+    position: relative;
+    margin-right: 200px;
+}
+
+.footer span{
+    color:#f0cd22
+}
+
+.h1footer{
+    position: absolute;
+    color: white;
+    top: 4px;
+    left: 200px;
+    font-size: 1.7em;
+}
+
+.h1footer span{
+    color:#F0CD22;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lien1:hover{
+    transform: scale(1.2);
+    transition: ease-in-out 1s;
+}
+
+.Liste a{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
